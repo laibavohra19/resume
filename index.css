@@ -1,0 +1,302 @@
+@import url("https://fonts.googleapis.googleapis/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: rgb(248, 249, 250);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+}
+.container1 {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 230px;
+}
+
+.container .card {
+  position: relative;
+  background: #e6e6e6;
+  padding: 40px;
+  border-radius: 20px;
+  min-height: 1000px;
+}
+
+.roboto-font {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: x-large;
+  color: rgb(56, 136, 228);
+  text-align: center;
+}
+.roboto-font1 {
+  text-align: center;
+  font-size: medium;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+  color: #6e6e6e;
+}
+.roboto-font3 {
+  text-align: center;
+  color: #4b4949;
+
+  font-family: "Mukta", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: light;
+}
+
+.my-line {
+  border: none;
+  height: 2px;
+  background-color: rgb(66, 64, 64);
+  position: relative;
+}
+.my-blue-bar {
+  position: absolute;
+  top: 51.7%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(56, 136, 228);
+  color: white;
+  padding: 0.2rem;
+  border-radius: 3px;
+  width: 10%;
+}
+p {
+  text-align: justify;
+  font-size: small;
+  color: #6e6e6e;
+}
+.roboto-font4 {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: medium;
+  color: rgb(56, 136, 228);
+  text-align: left;
+}
+.roboto-font5 {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: small;
+  color: rgb(149, 144, 144);
+  text-align: left;
+  top: 65%;
+}
+.my-line1,
+.my-line2,
+.my-line3,
+.my-line4,
+.my-line5 {
+  border: none;
+  height: 6px;
+  background-color: rgb(108, 105, 105);
+  position: relative;
+  width: 130%;
+  left: -20%;
+  top: 20%;
+}
+.my-line6 {
+  border: none;
+  height: 2px;
+  background-color: rgb(6, 6, 6);
+  position: relative;
+  width: 15%;
+  left: 45%;
+}
+
+.my-blue-bar1 {
+  position: absolute;
+  top: 26.2%;
+  left: 55.3%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(14, 14, 14);
+  color: white;
+  padding: 0.2rem;
+  width: 28%;
+}
+.my-blue-bar2 {
+  position: absolute;
+  top: 9.5%;
+  left: 54%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(14, 14, 14);
+  color: white;
+  padding: 0.2rem;
+  width: 24%;
+}
+.my-blue-bar3 {
+  position: absolute;
+  top: 13.2%;
+  left: 59.5%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(14, 14, 14);
+  color: white;
+  padding: 0.2rem;
+  width: 35%;
+}
+.my-blue-bar4 {
+  position: absolute;
+  top: 16.9%;
+  left: 62%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(14, 14, 14);
+  color: white;
+  padding: 0.2rem;
+  width: 40%;
+}
+.my-blue-bar5 {
+  position: absolute;
+  top: 20.5%;
+  left: 63%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(14, 14, 14);
+  color: white;
+  padding: 0.2rem;
+  width: 42%;
+}
+.my-blue-bar6 {
+  position: absolute;
+  top: 90.2%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(56, 136, 228);
+  color: white;
+  padding: 0.2rem;
+  width: 10%;
+  border-radius: 3px;
+}
+.my-blue-bar7 {
+  position: absolute;
+  top: 96%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(56, 136, 228);
+  color: white;
+  padding: 0.2rem;
+  width: 10%;
+  border-radius: 3px;
+}
+.container {
+  display: flex;
+}
+
+.column-1,
+.column-2 {
+  flex: 2; /* Adjust this value to change the width of the columns */
+  margin-right: 0px; /* Adjust this value to change the margin between the columns */
+}
+
+.column-1 {
+  margin-left: 0px;
+
+  height: 170px;
+}
+
+.column-2 {
+  margin-right: 0px;
+  height: 170px;
+  background-color: red;
+}
+.column-1 p {
+  margin-left: 2px;
+}
+.column-2 p {
+  margin-right: 2px;
+}
+.roboto-font6 {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: large;
+  color: rgb(19, 18, 18);
+  text-align: center;
+  margin-top: -40px;
+}
+.roboto-font7 {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: large;
+  color: rgb(19, 18, 18);
+  text-align: center;
+  margin-top: -40pxpx;
+}
+.column1,
+.column2 {
+  flex: 2; /* Adjust this value to change the width of the columns */
+  margin-right: 20px; /* Adjust this value to change the margin between the columns */
+  height: 210px;
+}
+.column1 {
+  background-color: aqua;
+}
+.column2 {
+  background-color: aquamarine;
+}
+.my-line2 {
+  top: 26%;
+}
+.my-line3 {
+  top: 33%;
+}
+.my-line4 {
+  top: 40%;
+}
+.my-line5 {
+  top: 47%;
+}
+
+.card {
+  background-color: aqua;
+}
+@media (max-width: 1200px) {
+  .roboto-font {
+    font-size: 2rem;
+  }
+  .roboto-font1 {
+    font-size: 1.5rem;
+  }
+  .roboto-font3 {
+    font-size: 1.2rem;
+  }
+  .roboto-font4 {
+    font-size: 1rem;
+  }
+  .roboto-font5 {
+    font-size: 0.9rem;
+  }
+  .roboto-font6 {
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+    <link rel="stylesheet" href="" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: sans-serif;
+      }
+
+      body {
+        background: rgb(248, 249, 250);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+      .container {
+        width: 100%;
+        max-width: 1200px;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .container1 {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        max-width: 1000px;
+        min-height: 200px;
+      }
+      .blue-box {
+        position: absolute;
+
+        width: 299px;
+        height: 693px;
+
+        background: rgb(56, 136, 228);
+        margin-left: -120px;
+        transform: rotateZ(48deg);
+        margin-top: -560px;
+      }
+
+      .container2 {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        max-width: 1000px;
+        min-height: 230px;
+      }
+
+      .container .card {
+        background: #e6e6e6;
+        padding: 40px;
+        border-radius: 20px;
+      }
+      .card-body {
+        background: #e6e6e6;
+        padding: 40px;
+        border-radius: 20px;
+      }
+
+      .roboto-font {
+        font-family: "Oswald", sans-serif;
+        font-weight: 700;
+        font-size: x-large;
+        color: rgb(56, 136, 228);
+        text-align: center;
+      }
+      .roboto-font1 {
+        text-align: center;
+        font-size: medium;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        color: #6e6e6e;
+      }
+      .roboto-font3 {
+        text-align: center;
+        color: #4b4949;
+        font-family: "Mukta", sans-serif;
+        font-weight: 300;
+      }
+
+      .my-line {
+        border: none;
+        height: 2px;
+        background-color: rgb(66, 64, 64);
+      }
+
+      .my-blue-bar {
+        position: absolute;
+        top: 35%;
+        left: 48%;
+        height: 2px;
+        transform: translate(-50%, -50%);
+
+        width: 15%;
+
+        background-color: rgb(56, 136, 228);
+        padding: 0.1rem;
+        border-radius: 1px;
+      }
+
+      p {
+        text-align: justify;
+        font-size: small;
+        color: #6e6e6e;
+      }
+      .roboto-font4 {
+        font-family: "Oswald", sans-serif;
+        font-weight: 700;
+        font-size: medium;
+        color: rgb(56, 136, 228);
+        text-align: left;
+      }
+      .roboto-font5 {
+        font-family: "Oswald", sans-serif;
+        font-weight: 600;
+        font-size: small;
+        color: rgb(149, 144, 144);
+        text-align: left;
+      }
+      .my-line1,
+      .my-line2,
+      .my-line3,
+      .my-line4,
+      .my-line5 {
+        position: relative;
+        border: none;
+        height: 6px;
+        background-color: rgb(108, 105, 105);
+        width: 130%;
+        left: -20%;
+      }
+      .my-line1 {
+        top: 17%;
+      }
+      .my-line2 {
+        top: 23%;
+      }
+      .my-line3 {
+        top: 29%;
+      }
+      .my-line4 {
+        top: 35%;
+      }
+      .my-line5 {
+        top: 41%;
+      }
+      .my-line6 {
+        border: none;
+        height: 2px;
+        background-color: rgb(6, 6, 6);
+        position: relative;
+        width: 35%;
+        left: 36%;
+      }
+
+      .my-blue-bar1,
+      .my-blue-bar2,
+      .my-blue-bar3,
+      .my-blue-bar4,
+      .my-blue-bar5 {
+        position: absolute;
+        background-color: rgb(14, 14, 14);
+        color: white;
+        padding: 0.2rem;
+      }
+      .my-blue-bar1 {
+        position: absolute;
+        width: calc(50% - 0.2rem);
+        left: 5%;
+
+        top: 24.1%;
+      }
+      .my-blue-bar2 {
+        position: absolute;
+        width: calc(65% - 0.2rem);
+        left: 12%;
+        top: 41.1%;
+      }
+      .my-blue-bar3 {
+        position: absolute;
+        width: calc(85% - 0.2rem);
+        left: 22%;
+        top: 55.1%;
+      }
+      .my-blue-bar4 {
+        position: absolute;
+        width: calc(80% - 0.2rem);
+        left: 20%;
+        top: 70.9%;
+      }
+      .my-blue-bar5 {
+        position: absolute;
+        width: calc(110% - 0.2rem);
+        left: 34%;
+        top: 85.9%;
+      }
+      .my-blue-bar6 {
+        position: absolute;
+        background-color: rgb(56, 136, 228);
+        color: white;
+        padding: 0.1rem;
+        width: 10%;
+        top: 73.2%;
+        left: 45%;
+        border-radius: 1px;
+      }
+      .my-blue-bar7 {
+        display: block;
+        position: absolute;
+        background-color: rgb(56, 136, 228);
+        color: white;
+        padding: 0.1rem;
+        width: 10%;
+        top: 85.6%;
+        left: 45%;
+        border-radius: 1px;
+
+        border-radius: 3px;
+      }
+      .my-blue-bar8 {
+        position: absolute;
+        top: 18%;
+        left: 42%;
+        transform: translate(-50%, -50%);
+        width: 3%;
+        height: 2px;
+        background-color: rgb(56, 136, 228);
+        padding: 0.1rem;
+        border-radius: 1px;
+      }
+      .my-blue-bar9 {
+        position: absolute;
+        top: 106.8%;
+        left: 7%;
+        transform: translate(-50%, -50%);
+        width: calc(15% - 0.5rem);
+        height: 2px;
+        background-color: rgb(56, 136, 228);
+        padding: 0.1rem;
+        border-radius: 1px;
+      }
+
+      .my-blue-bar10 {
+        position: absolute;
+        top: 184.5%;
+        left: 42%;
+        transform: translate(-50%, -50%);
+        width: 3%;
+        height: 2px;
+        background-color: rgb(56, 136, 228);
+        padding: 0.1rem;
+        border-radius: 1px;
+      }
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .column-1,
+      .column-2 {
+        flex: 1; /* Adjust this value to change the width of the columns */
+        padding: 0 10px; /* Adjust this value to change the margin between the columns */
+      }
+
+      .column-1 p {
+        margin-bottom: 10px;
+      }
+      .column-2 p {
+        margin-bottom: 10px;
+      }
+
+      .roboto-font6 {
+        font-family: "Oswald", sans-serif;
+        font-weight: 500;
+        font-size: large;
+        color: rgb(19, 18, 18);
+        text-align: center;
+        margin-top: -40px;
+      }
+      .roboto-font7 {
+        font-family: "Oswald", sans-serif;
+        font-weight: 500;
+        font-size: large;
+        color: rgb(19, 18, 18);
+        text-align: center;
+        margin-top: -40px;
+      }
+
+      .column1,
+      .column2 {
+        flex: 1; /* Adjust this value to change the width of the columns */
+        padding: 0 10px; /* Adjust this value to change the margin between the columns */
+      }
+
+      .card {
+        background-color: aqua;
+      }
+
+      .column3,
+      .column4 {
+        flex: 1; /* Adjust this value to change the width of the columns */
+        padding: 2%; /* Adjust this value to change the margin between the columns */
+      }
+      .column5,
+      .column6 {
+        flex: 1; /* Adjust this value to change the width of the columns */
+        padding: 0 10px; /* Adjust this value to change the margin between the columns */
+      }
+
+      .p1 {
+        font-size: larger;
+        text-align: end;
+        margin-right: 90px;
+      }
+      .p2 {
+        font-size: larger;
+        margin-left: -40px;
+      }
+      .img2,
+      .img3,
+      .img4,
+      .img5,
+      .img1 {
+        margin-left: 60px;
+      }
+
+      .card {
+        overflow: hidden;
+        position: relative;
+      }
+      .hr-main1 {
+        top: 18%;
+      }
+      .hr-main2 {
+        top: 24%;
+      }
+      .hr-main3 {
+        top: 30%;
+      }
+      .hr-main4 {
+        top: 36%;
+      }
+      .hr-main5 {
+        top: 42%;
+      }
+      .b1 img {
+        position: absolute;
+        z-index: 9;
+        top: 10%;
+        left: 50%;
+
+        transform: translate(-50%, -50%);
+        width: 250px;
+        height: 250px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row mx-2 my-2">
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="card mt-4 mb-4">
+            <div class="text-center">
+              <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+              <div class="b1 d-flex justify-content-center align-items-center">
+                <img
+                  src="LAIBA.jpg"
+                  width="90%"
+                  height="90%"
+                  class="img-fluid rounded-circle justify-content-center"
+                />
+              </div>
+              <div class="blue-box"></div>
+            </div>
+
+            <br />
+
+            <h3 class="text-center roboto-font">LAIBA VOHRA</h3>
+
+            <div class="d-flex justify-content-center align-items-center">
+              <h6 class="roboto-font1">SOFTWARE ENGINEER</h6>
+            </div>
+
+            <br />
+            <div class="col-md-12 col-lg-12 col-sm-12 col-xl-12 col-xxl-12">
+              <h5 class="roboto-font3">ABOUT ME</h5>
+
+              <div class="hr-main text-center position-relative">
+                <hr class="my-line" />
+                <span
+                  class="my-blue-bar position-absolute top-50 start-50 translate-middle"
+                ></span>
+              </div>
+
+              <p>
+                Seeking a challenging position in a reputed organization where I
+                can learn new skills, expand my knowledge, and leverage my
+                learnings.
+              </p>
+            </div>
+            <div class="container1">
+              <div class="column1 col-2">
+                <h9 class="roboto-font4">SKILLS</h9><br /><br />
+                <p class="roboto-font5">Communication</p>
+                <p class="roboto-font5">Leadership</p>
+                <p class="roboto-font5">Programming</p>
+                <p class="roboto-font5">Event management</p>
+                <p class="roboto-font5">TeamPlayer</p>
+              </div>
+
+              <div class="column2 col-2">
+                <div class="hr-main1 text-center position-relative">
+                  <hr class="my-line1" />
+                  <span
+                    class="my-blue-bar1 position-absolute top-50 translate-middle start-10"
+                  ></span>
+                </div>
+
+                <div class="hr-main2 text-center position-relative">
+                  <hr class="my-line2" />
+                  <span
+                    class="my-blue-bar2 position-absolute top-50 translate-middle start-10"
+                  ></span>
+                </div>
+                <div class="hr-main3 text-center position-relative">
+                  <hr class="my-line3" />
+                  <span
+                    class="my-blue-bar3 position-absolute top-50 translate-middle start-10"
+                  ></span>
+                </div>
+                <div class="hr-main4 text-center position-relative">
+                  <hr class="my-line4" />
+                  <span
+                    class="my-blue-bar4 position-absolute top-50 translate-middle start-10"
+                  ></span>
+                </div>
+                <div class="hr-main5 text-center position-relative">
+                  <hr class="my-line5" />
+                  <span
+                    class="my-blue-bar5 position-absolute top-50 translate-middle start-10"
+                  ></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="container1">
+              <div class="column-1 col-2">
+                <h9 class="roboto-font4">SOFTWARE</h9><br /><br />
+                <p>Visual Studio</p>
+                <br />
+                <p>Netbeans</p>
+                <p>MySQL</p>
+              </div>
+              <div class="column-2 col-2">
+                <h9 class="roboto-font4">LANGUAGES</h9><br /><br />
+                <p class="p3">HTML,CSS,Bootstrap,Javascript</p>
+                <p class="p3">C,Java,Python</p>
+                <p class="p3">SQL</p>
+              </div>
+            </div>
+            <div
+              class="col-md-12 col-lg-12 col-sm-12 col-xl-12 col-xxl-12 text-center"
+            >
+              <h9 class="roboto-font6">CONTACT</h9>
+              <div class="hr-main text-center position-relative">
+                <hr class="my-line" />
+                <span
+                  class="my-blue-bar position-absolute top-50 start-50 translate-middle"
+                ></span>
+              </div>
+
+              <div class="d-flex align-items-center justify-content-start">
+                <i class="bi bi-geo-alt me-3"></i>
+                <p class="i1 my-2">Address:paradise bakery scheme 33,Khi</p>
+              </div>
+              <div class="d-flex align-items-center justify-content-start">
+                <i class="bi bi-telephone-fill me-3"></i>
+                <p class="i2 my-2">Phone:03151014044</p>
+              </div>
+              <div class="d-flex align-items-center justify-content-start">
+                <i class="bi bi-envelope-open me-3"></i>
+                <p class="i3 my-2">Email:Laibavohra19112001@gmail.com</p>
+              </div>
+            </div>
+            <br />
+
+            <div
+              class="col-md-12 col-lg-12 col-sm-12 col-xl-12 col-xxl-12 text-center"
+            >
+              <h9 class="roboto-font7">REFERENCE</h9>
+              <div class="hr-main text-center position-relative">
+                <hr class="my-line" />
+                <span
+                  class="my-blue-bar position-absolute top-50 start-50 translate-middle"
+                ></span>
+              </div>
+              <p>Syed Saad Luqman<br />Teacher at DHA Suffa University</p>
+              <p>Asad-ur-Rahman<br />Founding member of Ponder Alliance</p>
+              <hr class="my-line6" />
+            </div>
+          </div>
+        </div>
+        <!-- Left section content -->
+
+        <div class="col-lg-8 col-md-8 col-12">
+          <div class="card1 mt-4 mb-4">
+            <div class="card-body">
+              <h2>WORK EXPERIENCE</h2>
+
+              <div class="hr-main1 position-relative">
+                <hr class="my-line" />
+                <span
+                  class="my-blue-bar9 position-absolute top-50 translate-middle start-10"
+                ></span>
+              </div>
+              <div class="container2">
+                <div class="column3 col-4">
+                  <p class="p1">FREELANCER <br />2022- present</p>
+                  <br /><br />
+                  <p class="p1">SALES AND MARKETING<br />2020</p>
+                  <br />
+                  <p class="p1">SCIENCE TEACHER</p>
+                  <br />
+                  <br />
+                  <p class="p1">VICE PRESIDENT</p>
+                  <br /><br /><br />
+                </div>
+                <div class="column4 col-4">
+                  <p class="p2">Front-end Web developer<br />Web Development</p>
+                  <br /><br />
+                  <p class="p2">Vohra Production and Management</p>
+                  <br /><br />
+                  <p class="p2">
+                    Happy Child Secondary School.<br />
+                    Management,Teaching
+                  </p>
+                  <br /><br />
+                  <p class="p2">Performance Art Society</p>
+                  <br /><br /><br />
+                </div>
+              </div>
+              <div class="col-12">
+                <h2>EDUCATION</h2>
+                <div class="hr-main1 position-relative">
+                  <hr class="my-line" />
+                  <span
+                    class="my-blue-bar9 position-absolute top-50 translate-middle start-10"
+                  ></span>
+                </div>
+                <div class="container2">
+                  <div class="column5 col-4">
+                    <br />
+                    <p class="p1">DHA Suffa University<br />2021 - 2025</p>
+                    <br /><br />
+                    <p class="p1">
+                      Govt Degree Science and Commerce VI <br />2019 - 2021
+                    </p>
+                    <br /><br />
+                    <p class="p1">
+                      Happy Palace Secondary Grammar School<br />2017 - 2019
+                    </p>
+                  </div>
+                  <div class="column6 col-4">
+                    <br />
+                    <p class="p2">Bachelor in Software Engineering</p>
+                    <br /><br /><br />
+                    <p class="p2">Intermediate<br />Secure 94%</p>
+                    <br /><br /><br /><br /><br />
+                    <p class="p2">Matriculation<br />Secure 87%</p>
+                    <br /><br /><br />
+                  </div>
+                </div>
+              </div>
+              <br /><br /><br />
+              <div class="col-12">
+                <h2>HOBBIES</h2>
+                <div class="hr-main1 position-relative">
+                  <hr class="my-line" />
+                  <span
+                    class="my-blue-bar9 position-absolute top-50 translate-middle start-10"
+                  ></span>
+                </div>
+                <br />
+
+                <div class="row1">
+                  <img
+                    class="img1"
+                    width="65"
+                    height="65"
+                    src="https://img.icons8.com/external-smashingstocks-detailed-outline-smashing-stocks/66/external-snooker-sports-and-games-smashingstocks-detailed-outline-smashing-stocks.png"
+                    class="img-fluid"
+                    alt="external-snooker-sports-and-games-smashingstocks-detailed-outline-smashing-stocks"
+                  />
+
+                  <img
+                    class="img2"
+                    width="65"
+                    height="65"
+                    src="https://img.icons8.com/external-line-vectorslab/68/external-Cricket-sports-and-recreation-line-vectorslab.png"
+                    class="img-fluid"
+                    alt="external-Cricket-sports-and-recreation-line-vectorslab"
+                  />
+
+                  <img
+                    class="img3"
+                    width="65"
+                    height="65"
+                    src="https://img.icons8.com/external-icongeek26-glyph-icongeek26/64/external-poetry-peru-icongeek26-glyph-icongeek26.png"
+                    class="img-fluid"
+                    alt="external-poetry-peru-icongeek26-glyph-icongeek26"
+                  />
+
+                  <img
+                    class="img4"
+                    width="65"
+                    height="65"
+                    src="https://img.icons8.com/ios/50/controller.png"
+                    class="img-fluid"
+                    alt="controller"
+                  />
+                  <img
+                    class="img5"
+                    width="65"
+                    height="65"
+                    src="https://img.icons8.com/ios-glyphs/30/around-the-globe.png"
+                    class="img-fluid"
+                    alt="around-the-globe"
+                  /><br /><br />
+                </div>
+              </div>
+            </div>
+            <!-- Right section content -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
